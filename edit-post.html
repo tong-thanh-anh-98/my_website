@@ -36,53 +36,30 @@
         </div>
     </nav>
 
-    <section class="singlepost">
-        <div class="container singlepost__container">
-            <h2>This is a short document describing things and phenomena in the image. Check out and make a comment.!</h2>
-            <div class="post__author">
-                <div class="post__author-avatar">
-                    <img src="./images/avatar12.jpg">
+    <section class="form__section">
+        <div class="container form__section-container">
+            <h2>Edit Post</h2>
+
+            <form action="" enctype="multipart/form-data">
+                <input type="text" placeholder="Title" />
+                <select class="select">
+                    <option value="0">Travel</option>
+                    <option value="1">Art</option>
+                    <option value="2">Science & Technology</option>
+                    <option value="3">Life</option>
+                    <option value="4">Cuisine</option>
+                </select>
+                <textarea rows="10" placeholder="Description"></textarea>
+                <div class="form__control inline">
+                    <label for="is_featured">Featured</label>
+                    <input type="checkbox" id="is_featured" checked>
                 </div>
-                <div class="post__author-info">
-                    <h5>By: User Name</h5>
-                    <small id="clock">April 4, 2024 - 14:14</small>
+                <div class="form__control">
+                    <label for="thumbnail">Change Thumbnail</label>
+                    <input type="file" id="thumbnail">
                 </div>
-            </div>
-            <div class="singlepost__thumbnail">
-                <img src="./images/blog96.jpg">
-            </div>
-            <p>
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-            </p>
-            <p>
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-            </p>
-            <p>
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-            </p>
-            <p>
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-                This is a short document describing things and phenomena in the image. Check out and make a
-                comment.
-            </p>
+                <button type="submit" class="btn">Update Post</button>
+            </form>
         </div>
     </section>
 
